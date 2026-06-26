@@ -8,7 +8,7 @@
 import Foundation
 
 func getHero() async throws -> HeroModel {
-    let endpoint = "https://www.superheroapi.com/api.php/cde51f49633956fb6db9a71742b549c3/10"
+    let endpoint = "https://www.superheroapi.com/api.php/cde51f49633956fb6db9a71742b549c3/489"
     
     guard let url = URL(string: endpoint) else {
         throw HRError.invaliURL
